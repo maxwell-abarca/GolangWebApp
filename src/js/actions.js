@@ -22,7 +22,11 @@ let registrar_usuario = (usuario) => {
                 confirmButtonText: 'Cool'
             })
             sessionStorage.setItem("usuario", JSON.stringify(usuario))
-            window.location = "http://localhost:3000/usuario.html";
+            setTimeout(() => {
+                window.location = "http://localhost:3000/usuario.html";
+                
+            }, 2000);
+
         })
         .fail(function (jqxhr, textStatus, errowThrown) {
             console.log(jqxhr)
