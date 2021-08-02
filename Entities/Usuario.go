@@ -10,3 +10,4 @@ type Usuario struct {
 	Contrasena        string `json:"Contrasena"`
 	FotoPerfil        string `json:"FotoPerfil"`
 }
+

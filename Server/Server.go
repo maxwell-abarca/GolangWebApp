@@ -7,16 +7,23 @@ import (
 	"github.com/gorilla/mux"
 	"io/ioutil"
 	"net/http"
+	"strconv"
 )
 
 var usuario Entities.Usuario
 var ropa Entities.Ropa
 
 func RetrieveUsers(w http.ResponseWriter, request *http.Request) {
+
 	json.NewEncoder(w).Encode(Models.RetrieveAllUsers())
 }
+
 func RetrieveClothes(w http.ResponseWriter, request *http.Request) {
-	json.NewEncoder(w).Encode(Models.RetrieveAllRopa())
+	cedula, err := strconv.Atoi(request.URL.RawQuery)
+	if err != nil {
+		err.Error()
+	}
+	json.NewEncoder(w).Encode(Models.RetrieveAllClothing(cedula))
 }
 
 func CreateUsers(w http.ResponseWriter, request *http.Request) {
@@ -38,9 +45,15 @@ func CreateClothes(w http.ResponseWriter, request *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 	} else {
 		json.Unmarshal(bodyBytes, &ropa)
-		Models.CreateCLothing(ropa)
+		Models.CreateClothing(ropa)
 		json.NewEncoder(w).Encode(Models.RetrieveException(2))
 	}
+}
+func RetrieveUser(w http.ResponseWriter, request *http.Request) {
+	query:=request.URL.Query()
+	usuario.CorreoElectronico=query.Get("CorreoElectronico")
+	usuario.Contrasena=query.Get("Contrasena")
+	json.NewEncoder(w).Encode(Models.RetrieveUser(usuario))
 }
 
 func DeleteUsers(w http.ResponseWriter, request *http.Request) {
@@ -55,11 +68,11 @@ func DeleteUsers(w http.ResponseWriter, request *http.Request) {
 
 func InitServer() {
 	router := mux.NewRouter()
-	router.HandleFunc("/registro_usuario", CreateUsers).Methods("POST")
-	router.HandleFunc("/usuarios", RetrieveUsers).Methods("GET")
-	router.HandleFunc("/usuarios", DeleteUsers).Methods("DELETE")
+	router.HandleFunc("/usuario", CreateUsers).Methods("POST")
+	router.HandleFunc("/usuario", RetrieveUser).Methods("GET")
+	router.HandleFunc("/usuario", DeleteUsers).Methods("DELETE")
 	router.HandleFunc("/ropa", RetrieveClothes).Methods("GET")
-	router.HandleFunc("/registro_ropa", CreateClothes).Methods("POST")
+	router.HandleFunc("/ropa", CreateClothes).Methods("POST")
 	router.PathPrefix("/").Handler(http.FileServer(http.Dir("./src")))
 	http.ListenAndServe(":3000", router)
 

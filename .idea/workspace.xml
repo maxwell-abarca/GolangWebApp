@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad36f8df-cd25-4933-902a-24ac801253b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Ropa.go" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Ropa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Usuario.go" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Usuario.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/RopaModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RopaModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UsuarioModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UsuarioModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/img/startbootstrap-simple-sidebar-gh-pages.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inicio_sesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/inicio_sesion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/registro_usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/registro_usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/usuario.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1auqjo4wkQGAy1GwAUcwL2f4lg8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxwell\go\src\PaginaWeb\Server" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build Main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="PaginaWeb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build Main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1627879829928">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627879829928" />
+    <state width="1323" height="51" key="GridCell.Tab.0.bottom" timestamp="1627879486282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="51" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627879486282" />
+    <state width="1323" height="51" key="GridCell.Tab.0.center" timestamp="1627879486282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="51" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627879486282" />
+    <state width="1323" height="51" key="GridCell.Tab.0.left" timestamp="1627879486282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="51" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627879486282" />
+    <state width="1323" height="51" key="GridCell.Tab.0.right" timestamp="1627879486282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="51" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627879486282" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Models/RopaModel.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Models/RopaModel.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Models/UsuarioModel.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Models/UsuarioModel.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

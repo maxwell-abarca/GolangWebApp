@@ -2829,28 +2829,24 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 #sidebar {
-
   background-color: #008080;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
   
 }
 
-#sidebar ul>li{
+#sidebar ul>li {
+
   padding-top: 15px;
   padding-bottom: 15px;
+  
 }
 
-
-#sidebar ul>li>a{
-  
+#sidebar ul>li>a {
   color: #fff;
 }
-#sidebar h1{
-color: #fff;
+
+#sidebar h1 {
+  color: #fff;
 }
-
-
 
 .btn-warning:focus, .btn-warning.focus {
   color: #fff;
@@ -3356,7 +3352,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
+  
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.9375rem;

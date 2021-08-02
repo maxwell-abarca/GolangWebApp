@@ -1,5 +1,5 @@
 'use strict'
-
+this.service = 'usuario';
 const imagen = document.querySelector('#user_img');
 const identificacion = document.querySelector('#txt_identificacion');
 const nombre = document.querySelector('#txt_nombre')
@@ -113,7 +113,7 @@ function signIn() {
         usuario.Contrasena = contrasena.value;
         usuario.FotoPerfil = imagen.getAttribute("src");
         console.log(usuario);
-        registrar_usuario(usuario);
+        registrar_usuario(usuario,service);
     }
 }
 
